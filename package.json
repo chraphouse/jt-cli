@@ -1,0 +1,20 @@
+{
+  "name": "jt-cli",
+  "version": "1.0.0",
+  "description": "Swiss army knife for JSON. Format, minify, query, diff, validate, convert — all from the command line.",
+  "main": "index.js",
+  "bin": {
+    "jt": "./index.js"
+  },
+  "keywords": ["json", "cli", "format", "minify", "query", "jq", "diff", "validate", "csv"],
+  "author": "Adam Chraibi <adamchraibi@yahoo.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chraphouse/jt-cli"
+  },
+  "files": ["index.js"],
+  "engines": {
+    "node": ">=18"
+  }
+}
